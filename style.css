@@ -1,0 +1,35 @@
+   /* pseudo classes */
+
+article > p:first-child{
+    background-color: brown;
+}
+article > p:last-of-type{
+    background-color: chartreuse;
+}
+article + p:first-of-type{
+    background-color: cyan;
+}
+article > p:nth-child(2){
+    background-color: darkgreen;
+}
+section p{
+    background-color: fuchsia;
+}
+
+  /* pseudo elements */
+
+article > p::first-line{
+    background-color: gold;
+}
+article > p::first-letter{
+    background-color: indigo;
+}
+article > p::selection{
+    background-color: dimgray;
+}
+article > p::before{
+content: ' " ';
+}
+article > p::after{
+    content: ' " ';
+}
